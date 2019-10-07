@@ -1,0 +1,24 @@
+{
+    "name": "v.qq capture tool",
+    "version": "1.0",
+    "description": "腾讯视频截图工具",
+    "permissions": [
+        "activeTab",
+        "declarativeContent"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_icon": {
+            "128": "images/icon.png"
+        }
+    },
+    "icons": {
+        "128": "images/icon.png"
+    },
+    "manifest_version": 2
+}
